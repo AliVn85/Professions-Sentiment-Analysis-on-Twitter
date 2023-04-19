@@ -68,14 +68,6 @@ The file explorer is accessible using the button in left corner of the navigatio
 
 ## References
 <a id="1">[1]</a> 
-The following file from the GitHub repo XXXXXXXX: germany.json
+The following file is used in this repository from the GitHub repo [from pensnarik](https://github.com/pensnarik/german-cities): germany.json
 
-@misc{Charles2013,
-  author = {Charles, P.W.D.},
-  title = {Project Title},
-  year = {2013},
-  publisher = {GitHub},
-  journal = {GitHub repository},
-  howpublished = {\url{https://github.com/charlespwd/project-title}},
-  commit = {4f57d6a0e4c030202a07a60bc1bb1ed1544bf679}
-}
+
