@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<typeSystemDescription xmlns="http://uima.apache.org/resourceSpecifier">
+    <types>
+        <typeDescription>
+            <name>Tweet</name>
+            <description>A unique Tweet.</description>
+            <supertypeName>uima.tcas.Annotation</supertypeName>
+            <features>
+                <featureDescription>
+                    <name>tId</name>
+                    <description>Tweet ID</description>
+                    <rangeTypeName>uima.cas.String</rangeTypeName>
+                </featureDescription>
+            </features>
+            <features>
+                <featureDescription>
+                    <name>tText</name>
+                    <description>Tweet Text</description>
+                    <rangeTypeName>uima.cas.String</rangeTypeName>
+                </featureDescription>
+            </features>
+            <features>
+                <featureDescription>
+                    <name>tHashtags</name>
+                    <description>Tweet Hashtags</description>
+                    <rangeTypeName>uima.cas.String</rangeTypeName>
+                </featureDescription>
+            </features>
+            <features>
+                <featureDescription>
+                    <name>tSentimentProbabilities</name>
+                    <description>Tweet Sentiments</description>
+                    <rangeTypeName>uima.cas.String</rangeTypeName>
+                </featureDescription>
+            </features>
+            <features>
+                <featureDescription>
+                    <name>tSentimentClasses</name>
+                    <description>Tweet Classes</description>
+                    <rangeTypeName>uima.cas.String</rangeTypeName>
+                </featureDescription>
+            </features>
+        </typeDescription>
+    </types>
+</typeSystemDescription>
