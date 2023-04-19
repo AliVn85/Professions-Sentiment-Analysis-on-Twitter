@@ -17,17 +17,17 @@ First, clone the repository locally, then do the preparations below:
 1. Acquire a Twitter authentication token for Tweepy and assign the tokens to the scraper.py script.
 2. For the scraper to work, you will need a CSV file that has a series of keywords separated by semicolon. The scraper will group each keywords per line from the 1st one - not the 0th. 
 
-Second, you may run the scraper.py using the following command in the folder where the said script exists:
+Second, you may run the Scraper/scrp.py using the following command in the folder where the said script exists:
 ```
 python3 scrp.py -f yourFile.csv
 ```
 After some time, a database will appear with all the scrapped Tweets.
 
-Next, using the following commands the result of sentiment analysis for each Tweet will be ready in the database - in the folder where the said scripts exist:
+Next, using the following commands the result of sentiment analysis for each Tweet will be ready in the database - in the Pipeline folder:
 ```
 python3 reader.py -d "../database.db" |  python3 spaCy.py | python3 writer.py -d "../database.db"
 ```
-Lastly, using the examples provided in the analysis folder, you may experiment with the visualizations and further monitoring.
+Lastly, using the examples provided in the Report folder, you may experiment with the visualizations and further monitoring.
 
 ## Create files and folders
 
