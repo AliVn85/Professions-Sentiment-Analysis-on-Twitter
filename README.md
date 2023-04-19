@@ -9,7 +9,7 @@ This is a research lab study as part of the master of Web and Data Science cours
 - Ali Vahdatnia
 - Danoosh Peachkah
 ## Underlying paper
-*[Add the link of the paper]*
+*[Add the link of the paper (To be allowed by supervisor)]*
 
 # How to install/Quick Start
 
